@@ -10,9 +10,11 @@ from pathlib import Path
 from typing import Any
 import base64
 
+
+
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
-    """ reads yaml file and returns
+    """reads yaml file and returns
 
     Args:
         path_to_yaml (str): path like input
@@ -133,3 +135,4 @@ def decodeImage(imgstring, fileName):
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath, "rb") as f:
         return base64.b64encode(f.read())
+
