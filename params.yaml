@@ -2,7 +2,7 @@ augmentation: True
 image_size: [224, 224, 3]
 batch_size: 16
 include_top: False
-epochs: 1
+epochs: 2
 classes: 2
 weights: imagenet
 learning_rate: 0.01
