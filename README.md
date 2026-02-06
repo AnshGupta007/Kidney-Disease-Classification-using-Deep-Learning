@@ -35,9 +35,7 @@ An end-to-end deep learning project for classifying kidney diseases from CT scan
 This project implements a deep learning-based classification system to detect and classify kidney diseases from CT scan images. The model can classify images into the following categories:
 
 - **Normal** - Healthy kidney
-- **Cyst** - Kidney with cyst
 - **Tumor** - Kidney with tumor
-- **Stone** - Kidney with stone
 
 The project follows MLOps best practices with proper experiment tracking, data versioning, and deployment pipelines.
 
@@ -122,18 +120,8 @@ Kidney-Disease-Classification-using-Deep-Learning/
 
 ---
 
-## 📊 Dataset
 
-The dataset used in this project is the **CT Kidney Dataset** containing CT scan images of kidneys.
 
-| Category | Description | Images |
-|----------|-------------|--------|
-| Normal | Healthy kidney images | ~5,000 |
-| Cyst | Kidney with cyst | ~3,000 |
-| Tumor | Kidney with tumor | ~2,000 |
-| Stone | Kidney with stone | ~1,500 |
-
-**Dataset Source:** [Kaggle CT Kidney Dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
 
 ---
 
@@ -197,15 +185,6 @@ python app.py
 
 Access the web interface at: `http://localhost:8080`
 
-### Making Predictions
-
-```python
-from src.cnnClassifier.pipeline.prediction import PredictionPipeline
-
-predictor = PredictionPipeline()
-result = predictor.predict("path/to/kidney/image.jpg")
-print(f"Prediction: {result}")
-```
 
 ---
 
@@ -342,28 +321,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
 
-**Ansh Gupta**
-
-- GitHub: [@AnshGupta007](https://github.com/AnshGupta007)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: [your-email@example.com]
-
----
-
-## ⭐ Show Your Support
-
-Give a ⭐ if this project helped you!
-
----
-
-## 🙏 Acknowledgements
-
-- [Kaggle](https://www.kaggle.com/) for the dataset
-- [TensorFlow](https://www.tensorflow.org/) for the deep learning framework
-- [MLflow](https://mlflow.org/) for experiment tracking
-
----
-
-<p align="center">Made with ❤️ by Ansh Gupta</p>
+<p align="center">Made by Ansh Gupta</p>
