@@ -381,3 +381,11 @@ x==========x]
 [2026-02-06 19:29:56,023: INFO: _internal: 127.0.0.1 - - [06/Feb/2026 19:29:56] "POST /predict HTTP/1.1" 200 -]
 [2026-02-06 19:30:19,060: INFO: _internal: 127.0.0.1 - - [06/Feb/2026 19:30:19] "GET / HTTP/1.1" 200 -]
 [2026-02-06 19:30:28,085: INFO: _internal: 127.0.0.1 - - [06/Feb/2026 19:30:28] "POST /predict HTTP/1.1" 200 -]
+[2026-02-06 19:53:29,007: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.168.36.86:8080]
+[2026-02-06 19:53:29,007: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-06 19:53:32,662: INFO: _internal: 127.0.0.1 - - [06/Feb/2026 19:53:32] "GET / HTTP/1.1" 200 -]
+[2026-02-06 19:53:40,747: INFO: _internal: 127.0.0.1 - - [06/Feb/2026 19:53:40] "POST /predict HTTP/1.1" 200 -]
+[2026-02-06 19:53:45,964: INFO: _internal: 127.0.0.1 - - [06/Feb/2026 19:53:45] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
