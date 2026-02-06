@@ -1,8 +1,3 @@
-# 📋 README.md for Kidney Disease Classification Project
-
-Here's a comprehensive README file for your repository:
-
-```markdown
 # 🩺 Kidney Disease Classification using Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
@@ -223,7 +218,7 @@ print(f"Prediction: {result}")
 └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-### Pipeline Stages:
+### Pipeline Stages
 
 | Stage | Description |
 |-------|-------------|
@@ -372,18 +367,3 @@ Give a ⭐ if this project helped you!
 ---
 
 <p align="center">Made with ❤️ by Ansh Gupta</p>
-```
-
----
-
-## 📝 Notes
-
-Feel free to customize this README by:
-
-1. **Updating the results** with your actual model metrics
-2. **Adding your contact information** (LinkedIn, Email)
-3. **Modifying the project structure** to match your actual files
-4. **Adding screenshots** of the web application
-5. **Including any additional features** specific to your implementation
-
-Would you like me to modify any section or add additional information?
